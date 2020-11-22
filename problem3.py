@@ -3,7 +3,7 @@ def primes(n):
     for x in range(n):
         if isPrime[x]:
             for i in range(2 * x,n,x):
-                isPrime[x]=False
+                isPrime[i]=False
     for i in range(n):
         if isPrime[i]:
             print(i)
